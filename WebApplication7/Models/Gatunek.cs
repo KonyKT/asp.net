@@ -11,6 +11,7 @@ namespace WebApplication7.Models
     {
         [Key]
         public int Id { get; set; }
+        [StringLength(30, MinimumLength = 3)]
         [Required]
         public String Name { get; set; }
     }

@@ -4,7 +4,7 @@
     var roleId = ViewBag.roleId;
 }
 
-    <form method="post">
+    @{ Html.BeginForm(FormMethod.Post);
         <div class="card">
             <div class="card-header">
                 <h2>Add or remove users from this role</h2>
@@ -29,4 +29,4 @@
                    class="btn btn-danger" style="width:auto">Anuluj</a>
             </div>
         </div>
-    </form>
+Html.EndForm();}

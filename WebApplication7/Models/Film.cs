@@ -15,7 +15,7 @@ namespace WebApplication7.Models
         [Required]
         public string Tytul { get; set; }
 
-        [Display(Name = "Release Date")]
+        [Display(Name = "Data Premiery")]
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
         [Required]

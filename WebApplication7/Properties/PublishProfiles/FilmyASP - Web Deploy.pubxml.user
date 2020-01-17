@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ten plik jest wykorzystywany przez proces publikowania/pakowania projektu internetowego. Możesz dostosować zachowanie tego procesu
+ poprzez edycję tego pliku MSBuild. Aby dowiedzieć się więcej o tym działaniu, odwiedź stronę https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxO25CKhZKEeYkGmjgAuFugAAAAACAAAAAAAQZgAAAAEAACAAAAB4RVDccORAaDP2/LxDHLoFIRr3sYRSnk/1kAExWpyXeQAAAAAOgAAAAAIAACAAAABS28H3waqhNn4tlbnDOR7TMYa8K6l8gDUYQBrSIw269oAAAACXZ92doZHZYRpdbmA74vWwgAXNJYq8P3JEgBIsaSLwy1CS+ehv4Rex6aG1ZBFcdceYRsvdAydUh3Gb1HZWFd88UNAzzv10sz9AuCI28Mh7eYms42dtWID3pb6g3tomJrJxYRUhJp/qLYyBOQL+o1MfRWgqu8xOMR40z2+pJnKolUAAAAANXLU8aPuDLFjSu0NwjDNXp7adT6zRPtDJZ2OIVwnUrNjeqTZZklLNa75eYTfn+IK8MoaeOlWzo/9wo7G7mgPn</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:filmyaspdbserver.database.windows.net,1433%3bInitial Catalog=FilmyASP_db%3bUser Id=Kony%40filmyaspdbserver%3bPassword=Konradeq^^%255</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebApplication7.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:filmyaspdbserver.database.windows.net,1433%3bInitial Catalog=FilmyASP_db%3bUser Id=Kony%40filmyaspdbserver%3bPassword=Konradeq^^%255</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

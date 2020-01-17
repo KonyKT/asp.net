@@ -176,3 +176,5 @@ C:\Users\Kony\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp3
 C:\Users\Kony\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp3.1\Razor\App_Code\Helpers.cshtml.g.cs
 C:\Users\Kony\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ViewExtension.cshtml.g.cs
 C:\Users\Kony\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp3.1\Razor\Views\Gatuneks\_TableView.cshtml.g.cs
+C:\Users\Kony\source\repos\WebApplication7\WebApplication7\bin\Debug\netcoreapp3.1\Web.config
+C:\Users\Kony\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp3.1\Razor\Views\Films\Szukaj.cshtml.g.cs

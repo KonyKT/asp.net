@@ -28,6 +28,9 @@ namespace WebApplication7.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
+
+
+
         // GET: Films/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -126,6 +129,23 @@ namespace WebApplication7.Controllers
             ViewData["GatunekId"] = new SelectList(_context.Gatunek, "Id", "Name", film.GatunekId);
             return View(film);
         }
+
+
+        public async Task<IActionResult> Szukaj(string szukaj)
+        {
+            var movies = from m in _context.Film
+                         select m;
+            var applicationDbContext = _context.Film.Include(f => f.Gatunek);
+
+            if (!String.IsNullOrEmpty(szukaj))
+            {
+                movies = movies.Where(s => s.Tytul.Contains(szukaj));
+            }
+
+            return View(await movies.ToListAsync());
+        }
+    
+
         [Authorize(Roles = "Administrator, Moderator")]
 
         // GET: Films/Delete/5

@@ -27,6 +27,8 @@ namespace WebApplication7.Controllers
             return View(await _context.Gatunek.ToListAsync());
         }
 
+
+
         // GET: Gatuneks/Details/5
         public async Task<IActionResult> Details(int? id)
         {
